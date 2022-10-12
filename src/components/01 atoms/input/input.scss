@@ -1,0 +1,12 @@
+.form-text {
+  overflow: hidden;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+
+  &__input {
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+  }
+}

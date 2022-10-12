@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ _target.title }} | {{ _config.project.title }}</title>
+  <link media="all" rel="stylesheet" href="{{ path '/css/common.css' }}">
+</head>
+<body>
+   <div class="inline-svg">
+    {{{inlineSVG './public/svg/icons.svg'}}}
+  </div>
+  <div class="preview-container">
+    {{{yield}}}
+  </div>
+
+  {{!-- <script async src="{{ path '/js/script.js' }}"></script> --}}
+</body>
+</html>

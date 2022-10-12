@@ -1,0 +1,27 @@
+label: 'Button'
+title: 'Common - Button'
+# status: 'done'
+preview: '@preview'
+context:
+  button:
+    - element: 'button'
+      style: 'primary'
+      text: 'button'
+      label: 'default button'
+    - element: 'button'
+      style: 'secondary'
+      text: 'disabled button'
+      disabled: true
+      label: 'disabled button'
+    - element: 'button'
+      text: 'with icon button'
+      icon:
+        position: 'front' # front / back
+        svg: 'icon-add-reverse'
+      label: 'with icon button'
+    - element: 'button'
+      text: 'with icon button'
+      icon:
+        position: 'back'
+        svg: 'icon-angle-right'
+      label: 'with icon button'

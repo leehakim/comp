@@ -1,0 +1,16 @@
+label: 'Search'
+title: 'Common - Search'
+# status: 'done'
+preview: '@preview'
+context:
+  input:
+    id: 'inputId'
+    label:
+      hidden: false
+      text: 'Search The Site'
+    placeholder: 'Enter Keyword'
+  button: 
+    - element: 'button'
+      style: 'primary'
+      text: 'search'
+      label: 'search button'

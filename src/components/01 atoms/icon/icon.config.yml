@@ -1,0 +1,19 @@
+label: 'Icons'
+title: 'Common - Icons'
+# status: 'done'
+preview: '@preview-icon'
+name: 'default'
+context:
+  icon: 'icon-add'
+
+variants:
+  - name: 'sprite'
+    context:
+      icon:
+        - 'icon-add'
+        - 'icon-add-reverse'
+        - 'icon-angle-left'
+        - 'icon-angle-right'
+        - 'icon-cross'
+        - 'icon-cross-bold'
+        - 'arrow-up-right-from-square-solid'
