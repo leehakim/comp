@@ -1,10 +1,10 @@
-label: 'Search'
-title: 'Common - Search'
+label: 'Search Box'
 # status: 'done'
 preview: '@preview'
 context:
   input:
     id: 'inputId'
+    type: 'search'
     label:
       hidden: false
       text: 'Search The Site'

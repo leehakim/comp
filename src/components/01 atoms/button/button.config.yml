@@ -1,5 +1,4 @@
 label: 'Button'
-title: 'Common - Button'
 # status: 'done'
 preview: '@preview'
 context:
@@ -19,8 +18,9 @@ context:
         position: 'front' # front / back
         svg: 'icon-add-reverse'
       label: 'with icon button'
-    - element: 'button'
+    - element: 'anchor'
       text: 'with icon button'
+      href: 'javascript:;'
       icon:
         position: 'back'
         svg: 'icon-angle-right'

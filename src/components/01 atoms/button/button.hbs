@@ -1,4 +1,4 @@
-{{#button}}
+{{#with button}}
 {{#if_eq element 'anchor'}}
 <a class="button{{#if style}} button--{{style}}{{/if}}{{#if_eq disabled true}} button--disabled{{/if_eq}}{{#if_eq icon.position 'front'}} icon--front{{/if_eq}}" href="{{href}}" target="_blank" role="button"{{#if_eq disabled true}} aria-disabled="true" tabindex="-1"{{/if_eq}}{{#option}} {{key}}="{{value}}"{{/option}}>
 {{else}}
@@ -11,4 +11,4 @@
   </svg>
   {{/if}}
 {{#if_eq element 'anchor'}}</a>{{else}}</button>{{/if_eq}}
-{{/button}}
+{{/with}}

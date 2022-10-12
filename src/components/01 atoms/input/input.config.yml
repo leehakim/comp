@@ -1,11 +1,9 @@
 label: 'Input'
-title: 'Common - Input'
 # status: 'done'
 preview: '@preview'
 context:
-  input:
-    id: 'inputId'
-    label:
-      hidden: true
-      text: 'inputLabel'
-    placeholder: 'inputPlaceholder'
+  id: 'inputId'
+  label:
+    hidden: true
+    text: 'inputLabel'
+  placeholder: 'inputPlaceholder'

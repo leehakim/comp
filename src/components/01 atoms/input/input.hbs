@@ -1,6 +1,4 @@
-{{#input}}
 <label for="{{id}}" class="form-text__label{{#if label.hidden}} hidden{{/if}}">{{label.text}}</label>
 <div class="form-text">
-  <input class="form-text__input" type="search" id="{{id}}" placeholder="{{placeholder}}">
+  <input class="form-text__input" type="{{#if type}}{{type}}{{^}}text{{/if}}" id="{{id}}" placeholder="{{placeholder}}">
 </div>
-{{/input}}
