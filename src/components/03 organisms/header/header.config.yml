@@ -1,0 +1,17 @@
+label: 'Header'
+# status: 'done'
+preview: '@preview'
+context:
+  header-search:
+    input:
+      id: 'search'
+      type: 'search'
+      label:
+        hidden: true
+        text: 'Search The Site'
+      placeholder: 'Enter Keyword'
+    button: 
+      element: 'button'
+      style: 'primary'
+      text: 'search'
+      label: 'search button'

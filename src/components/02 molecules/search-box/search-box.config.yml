@@ -10,7 +10,7 @@ context:
       text: 'Search The Site'
     placeholder: 'Enter Keyword'
   button: 
-    - element: 'button'
-      style: 'primary'
-      text: 'search'
-      label: 'search button'
+    element: 'button'
+    style: 'primary'
+    text: 'search'
+    label: 'search button'

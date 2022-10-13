@@ -1,27 +1,37 @@
 label: 'Button'
 # status: 'done'
 preview: '@preview'
+collated: true
 context:
-  button:
-    - element: 'button'
-      style: 'primary'
-      text: 'button'
-      label: 'default button'
-    - element: 'button'
+  element: 'button'
+  style: 'primary'
+  text: 'button'
+  label: 'default button'
+
+variants:
+  - name: 'disabled button'
+    context:
+      element: 'button'
       style: 'secondary'
       text: 'disabled button'
       disabled: true
       label: 'disabled button'
-    - element: 'button'
+
+  - name: 'with front icon button'
+    context:
+      element: 'button'
       text: 'with icon button'
       icon:
         position: 'front' # front / back
         svg: 'icon-add-reverse'
       label: 'with icon button'
-    - element: 'anchor'
+
+  - name: 'with back icon button'
+    context:
+      element: 'anchor'
       text: 'with icon button'
       href: 'javascript:;'
       icon:
         position: 'back'
         svg: 'icon-angle-right'
-      label: 'with icon button'
+      label: 'with back icon button'

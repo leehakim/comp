@@ -1,18 +1,27 @@
 label: 'Icons'
 # status: 'done'
-preview: '@preview-icon'
-name: 'default'
+preview: '@preview'
+collated: true
 context:
   icon: 'icon-add'
 
 variants:
-  - name: 'sprite'
+  - name: 'icon-add-reverse'
     context:
-      icon:
-        - 'icon-add'
-        - 'icon-add-reverse'
-        - 'icon-angle-left'
-        - 'icon-angle-right'
-        - 'icon-cross'
-        - 'icon-cross-bold'
-        - 'arrow-up-right-from-square-solid'
+      icon: 'icon-add-reverse'
+
+  - name: 'icon-angle-left'
+    context:
+      icon: 'icon-angle-left'
+
+  - name: 'icon-angle-right'
+    context:
+      icon: 'icon-angle-right'
+
+  - name: 'icon-cross'
+    context:
+      icon: 'icon-cross'
+
+  - name: 'icon-cross-bold'
+    context:
+      icon: 'icon-cross-bold'

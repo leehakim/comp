@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  &-logo {
+    width: 108px;
+    height: 24px;
+  }
+
+  &-search {
+    margin-left: auto;
+  }
+}
